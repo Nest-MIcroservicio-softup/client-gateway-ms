@@ -22,12 +22,7 @@ async function bootstrap() {
 
   await app.listen(envs.port);
 
-  // app.useGlobalPipes(
-  //   new ValidationPipe({
-  //     whitelist: true,
-  //     forbidNonWhitelisted: true,
-  //   })
-  // );
+  console.log("Hola mundo - primer cambio")
 
 
   logger.log(`Gateway corriendo en puerto: ${envs.port}`);
