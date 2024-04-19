@@ -5,6 +5,7 @@ import { NatsModule } from './transports/nats.module';
 import { HealthCheckModule } from './health-check/health-check.module';
 
 
+
 @Module({
   imports: [ProductosModule, OrdenesModule, NatsModule, HealthCheckModule],
   controllers: [],
